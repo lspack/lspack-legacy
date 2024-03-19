@@ -12,7 +12,7 @@ This version is no longer supported in any way.
 * Paste following command:
 
 ```bash
-curl -s https://raw.githubusercontent.com/lspack/lspack-legacy/main/lspack_install_script.sh | sudo sh
+curl -s https://raw.githubusercontent.com/lspack/lspack-legacy/master/lspack_install_script.sh | sudo sh
 ```
 
 Uninstall:
