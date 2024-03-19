@@ -1,5 +1,10 @@
-# lspack
-Free package manager by Lombardi & Streicher 
+# lspack-legacy
+Free package manager by Lombardi & Streicher
+
+## Important notice
+**NO LONGER IN SUPPORT!**
+Use modern version of *lspack* (currently in development).
+This version is no longer supported in any way.
 
 ## How to install? (linux)
 
@@ -7,12 +12,12 @@ Free package manager by Lombardi & Streicher
 * Paste following command:
 
 ```bash
-curl -s https://raw.githubusercontent.com/lspack/lspack/main/lspack_install_script.sh | sudo sh
+curl -s https://raw.githubusercontent.com/lspack/lspack-legacy/main/lspack_install_script.sh | sudo sh
 ```
 
 Uninstall:
 ```bash
-sudo rm -rf /usr/bin/lspack
+sudo rm -rf /usr/bin/leglspack
 ```
 
 ## How to use?
@@ -21,21 +26,21 @@ sudo rm -rf /usr/bin/lspack
 
 Install:
 ```bash
-sudo lspack install <package> [-a, --author <author>]
+sudo leglspack install <package> [-a, --author <author>]
 ```
 
 Update:
 ```bash
-sudo lspack update <package>
+sudo leglspack update <package>
 ```
 
 Upgrade lspack:
 ```bash
-sudo lspack upgrade
+sudo leglspack upgrade
 ```
 
 Uninstall package:
 ```bash
-sudo lspack remove <package>
+sudo leglspack remove <package>
 ```
 
