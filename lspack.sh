@@ -92,7 +92,7 @@ update_package() {
 
 main() {
 	if [ "$#" -eq 0 ]; then
-		echo -e "Usage: lspack <install | remove | update> <package> [option]"
+		echo -e "Usage: leglspack <install | remove | update> <package> [option]"
 		echo -e ""
 		echo -e "Options: (${RED}UNSAFE${NOCOLOR})"
 		echo -e "-a, --author <author> .............. Installs package from untrusted author"
@@ -122,8 +122,8 @@ main() {
 		install_package "$package_name" "$base_url"
 		;;
 	"upgrade")
-		remove_package "lspack"
-		install_package "lspack" "https://github.com/lspack"
+		remove_package "leglspack"
+		install_package "lspack-legacy" "https://github.com/lspack"
 		;;
 	*)
 		echo -e "${RED}Invalid action${NOCOLOR}"
